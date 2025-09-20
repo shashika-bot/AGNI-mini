@@ -1,14 +1,14 @@
 
 
 {
-  "name": "lite-xd",
+  "name": "AGNI-mini",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By Shashika",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name lite",
-    "stop": "pm2 stop lite",
-    "restart": "pm2 restart lite"
+    "start": "pm2 start index.js --deep-monitoring --attach --name AGNI-mini",
+    "stop": "pm2 stop AGNI-mini",
+    "restart": "pm2 restart AGNI-mini"
   },
   "dependencies": {
        "@whiskeysockets/baileys": "npm:baileys-pro@latest",
